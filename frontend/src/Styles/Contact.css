@@ -1,0 +1,146 @@
+.contact-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+    background-color: rgb(20, 20, 46);
+    background-position: center;
+    color: honeydew;
+}
+
+.contact-form{
+    border: 10px solid transparent;
+    padding: 10px 20px;
+    box-shadow: 0 0 20px rgba(252, 252, 252, 0.3);
+    border-radius: 10px;
+    background-color: rgb(33, 33, 90);
+    margin: 10px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid honeydew;
+}
+
+.contact-form>h2{
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: gold;
+}
+
+.contact-form> .input-box{
+    margin-top: 20px;
+}
+
+.input-box .field{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #9c9c9c;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: whitesmoke;
+    margin-top: 8px;
+}
+
+.field::placeholder{
+    color: gold;
+}
+
+.input-box .field.mess{
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button{
+    width: 100%;
+    height: 55px;
+    background-color: gold;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: black;    
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: .3s ease;
+}
+
+.contact-form button:hover{
+    background: transparent;
+    border: 2px solid honeydew;
+    color: gold;
+    box-shadow: 0 0 20px rgba(0,0,0, .5);
+}
+
+.spinner-div{
+    position: absolute;
+    z-index: 100;
+    top: 80%;
+    left: 45%;    
+}
+
+.cont-img{
+    display: none;
+}
+
+
+@media only screen and (min-width: 992px){
+    .cont-img{
+        display: block;
+    }
+    .cont-img>img{
+        width: 150px;
+        position: absolute;
+        opacity: 0.3;
+    }
+    .cont-img-1{
+        left: 5%;
+        top: 15%;
+    }
+    
+    .cont-img-2{
+        left: 15%;
+        top: 47%;
+    }
+    .cont-img-3{
+        left: 5%;
+        top: 65%;
+    }
+    .cont-img-4{
+        right: 5%;
+        top: 18%;
+    }
+    .cont-img-5{
+        right: 17%;
+        top: 45%;
+    }
+
+    .cont-img-6{
+        right: 5%;
+        top: 65%;
+    }
+
+    .cont-img-7{
+        top: 74%;
+        right: 20%;
+    }
+
+    .cont-img-8{
+        top: 15%;
+        right: 20%;
+    }
+
+    .cont-img-9{
+        top: 18%;
+        left: 20%;
+    }
+    .cont-img-10{
+        top: 75%;
+        left: 20%;
+    }
+
+}
+

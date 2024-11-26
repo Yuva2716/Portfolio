@@ -1,0 +1,76 @@
+.Admin-page{
+    height: 89vh;              
+    overflow-x:hidden;
+    background-color: rgb(20, 20, 46);
+}
+
+.Add-project-form{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 10px 15px;
+    padding: 20px;    
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: rgb(33, 33, 90);
+    box-shadow: 0 0 20px rgba(177, 177, 177, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid honeydew;
+}
+
+.Add-project-form>h2{
+    font-size: 1.5rem;
+    color: honeydew;
+    margin-bottom: 10px;
+}
+
+.Add-project-form > label{
+    color: gold;
+}
+
+.Add-project-form > input,textarea{
+    margin-bottom: 15px;
+    background-color: rgb(33, 33, 90);
+    color: honeydew;
+    border: 1px solid honeydew;
+}
+
+.Add-project-form > input::placeholder{
+    text-align: center;    
+    color: honeydew;
+}
+
+.Add-project-form > textarea::placeholder{
+    text-align: center;    
+    color: honeydew;
+}
+
+.Add-project-form > textarea{
+    height: 70px;
+}
+
+.Add-project-form button{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.Add-project-form button:hover{
+    background: transparent;
+    border: 2px solid honeydew;
+    color: gold;
+    box-shadow: 0 0 20px rgba(0,0,0, .5);
+}
+
+
+@media only screen and (min-width: 992px){
+    .Add-project-form{
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+}

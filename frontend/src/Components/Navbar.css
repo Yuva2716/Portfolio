@@ -1,0 +1,68 @@
+nav{
+    height: 70px;
+    background-color: rgb(16, 16, 29);
+    box-shadow: 0 1px 5px rgba(255, 255, 255, 0.973);
+    
+}
+
+.nav-img{
+    width: 40px;
+}
+
+
+.nav-item>ul{
+    display: flex;
+    gap: 75px;
+    margin-right: 30px;    
+}
+
+.navbar-items{    
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.navbar-items:hover{
+    text-decoration: underline 3px gold;
+    text-underline-offset: 5px;
+    color: gold;        
+}
+
+.navbar-items.active{
+    text-decoration: underline 3px gold;
+    text-underline-offset: 5px;
+    color: gold;        
+}
+
+
+.nav-link:hover{
+    text-decoration: underline 2px;    
+}
+
+.badge{
+    font-size: 18px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+/* Media Query*/
+
+@media only screen and (max-width: 400px) {
+    .nav-cont-1{        
+        margin-top: 5px;
+        margin-right: 30px;
+    }
+    
+    .navbar{
+        height: 75px;
+    }
+    .nav-item{
+        display: none;
+    }
+
+
+
+}

@@ -1,0 +1,78 @@
+.projectsCard>.card{
+    width: 18rem;    
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(33, 33, 90);
+    color: honeydew;    
+    transition: 0.2s ease;
+}
+
+.projectsCard>.card:hover{
+    border: 1px solid honeydew;
+    box-shadow: 0 0 20px rgba(255, 253, 253, 0.8);
+}
+
+.projectsCard>.card>img{
+    height: 15rem;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.ViewProject-btn{
+    text-align: center;
+    margin-top: 18px;
+}
+
+.ViewProject-btn>button>a{
+    background-color: rgb(247, 218, 56);
+    padding: 10px 50px;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+}
+.ViewProject-btn>button>a:hover{
+    background-color: rgb(16, 16, 29);
+    color: rgb(247, 218, 56);
+    border: 1px solid honeydew;
+    
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    color: rgb(247, 218, 56);
+}
+
+.card-des>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-wrap: wrap;
+}
+
+@media only screen and (max-width: 400px){
+    .projectsCard>.card{
+        width: 98%;        
+    }   
+    .ViewProject-btn{
+        margin-top: 15px;
+    }
+    .ViewProject-btn>button>a{
+        padding: 10px 30px;
+        font-size: 1.0rem;
+    }
+
+    .card-title{
+        font-size: 1.0rem;
+    }
+
+    .card-des>p{
+        font-size: 1.0rem;  
+    }
+
+}

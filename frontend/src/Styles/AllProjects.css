@@ -1,0 +1,106 @@
+.add-project-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-list{
+    background-color: rgb(20, 20, 46);
+    min-height: 90vh;
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 100%;    
+}
+
+.add-projects{    
+    padding: 10px;    
+    background-color: rgb(20, 20, 46);
+    display: none;
+}
+
+.add-btn{
+    background-color: rgb(247, 218, 56);
+    color: black;
+    padding: 5px 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.add-btn:hover{
+    background-color: black;
+    color: rgb(247, 218, 56);
+}
+
+.loading{
+    background-color: rgb(20, 20, 46);
+    height: 89vh;
+}
+
+.Loading-btn>button{
+    padding: 5px 20px;
+    background: blue;
+    color: honeydew;
+    margin-top: 65%;
+    border: 2px solid honeydew;
+}
+
+.project-category{
+    background-color: rgb(20, 20, 46);
+    color: honeydew;    
+}
+
+.project-category>ul{
+    padding-top: 25px;
+}
+
+.project-category>ul>li{
+    display: inline;
+    margin-left: 12px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: 0.2s ease;    
+}
+
+.project-category>ul>li:hover{
+    background-color: rgb(247, 218, 56);    
+    padding: 3px 8px;    
+    border: 1px solid honeydew;
+    border-radius: 15px;
+    color: black;
+}
+
+
+@media only screen and (min-width: 992px){
+    .project-category{
+        padding-bottom: 10px;
+    }
+    .project-category>ul{
+        margin-left: 20%;
+    }
+
+    .project-category>ul>li{
+        margin-left: 50px;
+        font-size: 1.1rem;
+        padding: 5px 20px 5px 20px;        
+        background-color: rgb(247, 218, 56);
+        color: black;
+        border-radius: 20px;
+    }
+
+    .project-category>ul>li:hover{
+        background-color: rgb(20, 20, 46);
+        border: 1px solid honeydew;
+        padding: 5px 20px 5px 20px;
+        color: rgb(247, 218, 56);
+        text-decoration: none;
+        box-shadow: 0 0 10px rgba(255, 253, 253, 0.8);
+    }
+
+    .Loading-btn>button{
+        margin-top: 20%;
+    }
+}
