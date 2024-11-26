@@ -36,7 +36,7 @@ const AddProject = () => {
     
       const handleSubmit = async (e) => {
         e.preventDefault()
-        const response = await fetch('http://localhost:5000/',{
+        const response = await fetch('https://portfolio-o69y.onrender.com',{
           method: "POST",
           headers: {
             'Content-Type': 'application/json',

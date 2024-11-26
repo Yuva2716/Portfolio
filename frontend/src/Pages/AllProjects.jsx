@@ -11,7 +11,7 @@ const AllProjects = () => {
   const [selectedCategory, setSelectedCategory] = useState('All')
 
   const getProjects = async () => {
-    const response = await fetch('http://localhost:5000/')
+    const response = await fetch('https://portfolio-o69y.onrender.com')
     const result =  await response.json()
     if(result.status === 200){
       setProjects(result.projects)

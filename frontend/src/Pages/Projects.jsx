@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
-  useEffect(() => { fetch('http://localhost:5000/')
+  useEffect(() => { fetch('https://portfolio-o69y.onrender.com')
   .then(res => res.json())
   .then(data => setProjects(data.slice(0, 3)))
   .catch(err => console.error(err));
