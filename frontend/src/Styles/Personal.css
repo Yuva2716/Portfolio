@@ -108,14 +108,14 @@
 }
 
 .details>table{
-    margin: 10px 15px;
+    margin: 10px 25px;
     font-family: 'Times New Roman', Times, serif;   
 }
 
 .info-col{
     color: gold;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
 
 }
 

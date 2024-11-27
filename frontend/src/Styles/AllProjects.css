@@ -1,13 +1,13 @@
 .add-project-page{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .project-list{
     background-color: rgb(20, 20, 46);
-    min-height: 90vh;
+    min-height: 91vh;
     padding-top: 20px;
-    padding-left: 15px;
+    padding-left: 7%;
     width: 100%;    
 }
 
@@ -35,7 +35,7 @@
 
 .loading{
     background-color: rgb(20, 20, 46);
-    height: 89vh;
+    height: 90vh;
 }
 
 .Loading-btn>button{
@@ -57,7 +57,7 @@
 
 .project-category>ul>li{
     display: inline;
-    margin-left: 12px;
+    margin-left: 18px;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9rem;
@@ -102,5 +102,9 @@
 
     .Loading-btn>button{
         margin-top: 20%;
+    }
+
+    .project-list{
+        padding-left: 2%;
     }
 }

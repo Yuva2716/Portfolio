@@ -55,10 +55,8 @@
     text-wrap: wrap;
 }
 
-@media only screen and (max-width: 400px){
-    .projectsCard>.card{
-        width: 98%;        
-    }   
+@media only screen and (max-width: 480px){
+       
     .ViewProject-btn{
         margin-top: 15px;
     }
