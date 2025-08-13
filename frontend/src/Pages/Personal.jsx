@@ -44,7 +44,7 @@ const Personal = () => {
                 
                 <tr>
                     <td></td>
-                    <td className='info-col-1 text-yellow-300'>8.3 CGPA</td>
+                    <td className='info-col-1 text-yellow-300'>8.5 CGPA</td>
                 </tr>
                 
                 <tr>
@@ -63,21 +63,28 @@ const Personal = () => {
             
             <div className="edu">
             <h2 className='edu-title'>Education</h2>
-            <div className="education">
-                <h1 className='text-warning fs-5'>Full Stack Development - <span>2024</span></h1>                
-                <h5>KGiSL Micro College, Coimbatore</h5>
-            </div>
-            <div className="education1">
+            
+            {/* <div className="education1">
                 <h1 className='text-warning fs-5'>Meta Frontend Developer - <span>2024</span></h1>                
                 <h5>Coursera</h5>
-            </div>
+            </div> */}
             
             <div className="education2">
-                <h1 className='text-warning fs-5'>B.Sc Chemistry - 83.7%</h1>
+                <h1 className='text-warning fs-5'>B.Sc Chemistry - 8.5 CGPA</h1>
                 <h3>2019-2022</h3>
                 <h5>Jamal Mohamed College, Trichy</h5>
             </div>
+
+            <h2 className='edu-title'>Courses</h2>
+            <div className="education">
+                <h1 className='text-warning'>MERN Full Stack Development with UI/UX</h1>                
+                <h5>KGiSL Micro College, Coimbatore</h5>
+            </div>                            
+
             </div>
+
+                
+
                         
             <div className="certification">
             <h2 className='edu-title'>Certifications</h2>
@@ -87,7 +94,7 @@ const Personal = () => {
                     <li><span>Version Control</span> from Meta through <span>Coursera</span></li>
                     <li><span>Programming with JS</span> From Meta through <span>Coursera</span></li>
                     <li><span>Intro to Front End Dev</span> from Meta through <span>Coursera</span></li>
-                    <li><span>Excel</span> For Beginners from <span>Coursera</span></li>
+                    <li><span>MS-Excel</span> from <span>Great Learning</span></li>
                   </ul>
                 </div>
             </div>
